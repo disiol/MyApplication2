@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // on debag
         FacebookSdk.setIsDebugEnabled(true);
 //        FacebookSdk.setAutoInitEnabled(true);
 //        FacebookSdk.fullyInitialize();
